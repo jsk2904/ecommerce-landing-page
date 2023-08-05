@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Document</title>
+		<link rel="stylesheet" href="index.css" />
+	</head>
+	<body>
+		<div>
+			<div class="heading">Bundle & Save</div>
+			<div class="mainBody">
+				<div class="firstChild" onclick="handleClick('firstChild',this)">
+					<!-- <div class="item-details"> -->
+					 
+					<input
+						type="radio"
+						id="html"
+						name="fav_language"
+						value="HTML"
+						class="radio-button"
+					/>
+					 
+					<label for="html"
+						>1 pair
+						<p>DKK 195.00</p>
+					</label>
+					<!-- </div> -->
+					<p class="itemDiscount">50% OFF</p>
+				</div>
+				<div class="secondChild" onclick="handleClick('secondChild',this)">
+					<!-- <div class="item-details"> -->
+					<div class="item-info">
+						<input
+							type="radio"
+							id="html"
+							name="fav_language"
+							value="HTML"
+							class="radio-button secondChildRadioButton"
+						/>
+						 
+						<label for="html"
+							>2 pair
+							<p class="second-item-price">DKK 345.00</p>
+						</label>
+						<strike class="previous-price">DKK 195.0</strike>
+						<p class="description">Most Popular</p>
+						<p class="itemDiscount secondItem">40% OFF</p>
+					</div>
+
+					<!-- </div> -->
+					<div class="item-details">
+						<table>
+							<tr>
+								<td></td>
+								<td>Size</td>
+								<td>Color</td>
+							</tr>
+							<tr>
+								<td>#1</td>
+								<td>
+									<select name="size" class="size">
+										<option value="XL">XL</option>
+										<option value="normal">Normal</option>
+										<option value="XXL">XXL</option>
+									</select>
+								</td>
+								<td>
+									<select name="size" class="size">
+										<option value="Blue">BLUE</option>
+										<option value="Orange">ORANGE</option>
+										<option value="Yellow">YELLOW</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td>#2</td>
+								<td>
+									<select name="size" class="size">
+										<option value="XL">XL</option>
+										<option value="normal">Normal</option>
+										<option value="XXL">XXL</option>
+									</select>
+								</td>
+								<td>
+									<select name="size" class="size">
+										<option value="Blue">BLUE</option>
+										<option value="Orange">ORANGE</option>
+										<option value="Yellow">YELLOW</option>
+									</select>
+								</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<div class="thirdChild" onclick="handleClick('thirdChild',this)">
+					 
+					<input
+						type="radio"
+						id="html"
+						name="fav_language"
+						value="HTML"
+						class="radio-button"
+					/>
+					 
+					<label for="html"
+						>3 pair
+						<p>DKK 528.00</p>
+					</label>
+					<p class="itemDiscount">60% OFF</p>
+				</div>
+				<div class="messageTab">
+					<div class="shippingMessage">Free 2 Days Shipping</div>
+					<div class="TotalMessage">
+						Total:
+						<span class="customizeTotalMessage">DKK 360.00</span>
+					</div>
+				</div>
+				<div class="cartButton">+ Add to Cart</div>
+				<div class="footer-heading">Powered by pumper</div>
+			</div>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
